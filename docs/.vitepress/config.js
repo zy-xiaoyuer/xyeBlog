@@ -7,55 +7,50 @@
       logo: "/logo.png",
     // 侧边栏
     nav: [
-        { text: "Guide", link: "/guide/" },
-        { text: "GuideTest", link: "/guide/test" },
-        { text: "gitee", link: "https://gitee.com/geeksdidi" },
-        {
-          text: "Drop Menu",
-          items: [
-            { text: 'Item A', link: '/item-1' },
-            { text: 'Item B', link: '/item-2' },
-            { text: 'Item C', link: '/item-3' }
-          ]
-        }
+        { text: "首页", link: "/" },
+        { text: "学习笔记",  items: [
+          { text: 'vue', link: 'views/articles/vue2' },
+          { text: 'element', link: 'views/articles/element' },
+          { text: 'md', link: 'views/articles/md' }
+        ]
+       },
       ],
     //   社交链接
       socialLinks: [
         { icon: "github", link: "https://gitee.com/geeksdidi" },
-        { icon: "twitter", link: "..." },
-        // You can also add custom icons by passing SVG as string:
-        {
-          icon: {
-            svg: '<svg role="img" viewBox="0 0 24 24" xmlns="SVG namespace"><title>Dribbble</title><path d="M12...6.38z"/></svg>',
-          },
-          link: "...",
-        },
+        { icon: "twitter", link: "..." }
       ],
     //   侧边栏
     sidebar: {
-        // 只有包含articles路径的才具有侧边栏
-        "/articles/": [
-          {
-            text: "组件库源码实现",
-            items: [
-              {
-                text: "组件库环境搭建",
-                link: "/articles/组件库环境搭建",
-              },
-              { text: "gulp的使用", link: "/articles/gulp的使用" },
-            ],
-          },
+      // 折叠侧边栏
+        "views/articles/": [
           {
             text: "vue教程",
             // 可折侧边栏
             collapsible: true,
-          collapsed:true,
-          items: [
-            {
-              text: "pina和vuex",
-              link: "/articles/pina和vuex",
-            },
-          ],
+            collapsed:true,
+            items: [
+              {
+                text: "vue2",
+                link: "views/articles/vue2",
+              },
+              {
+                text: "vue3",
+                link: "views/articles/vue3",
+              },
+            ],
+          },
+          {
+            text: "element教程",
+            // 可折侧边栏
+            collapsible: true,
+            collapsed:true,
+            items: [
+              {
+                text: "element",
+                link: "views/articles/element",
+              },
+            ],
           },
         ],
       },
