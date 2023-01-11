@@ -27,12 +27,12 @@ features:
   - title: md的简单使用
     details: md的简单使用
     link: views/articles/index/md
-  # - title: Simple and minimal, always
-  #   details: Lorem ipsum...
-  # - title: Simple and minimal, always
-  #   details: Lorem ipsum...
-  # - title: Simple and minimal, always
-  #   details: Lorem ipsum...
+  - title: Simple and minimal, always
+    details: Lorem ipsum...
+  - title: Simple and minimal, always
+    details: Lorem ipsum...
+  - title: Simple and minimal, always
+    details: Lorem ipsum...
 ---
 
 <script setup>
@@ -43,14 +43,5 @@ features:
 <style lang="sass" scopd>
 .VPContent.is-home
   background-color: #C6D78D
-.VPNav.no-sidebar[data-v-9397ee4e]
-  background-color: #C6D78D
-[data-v-72cc4481] .image-src
-    top: 60%
-.icon[data-v-549c013f]
-  background-color: #C6D78D
-.box[data-v-549c013f]
-  background-color: #C6D78D
-.VPFeature[data-v-549c013f]
-  border-radius: 5px
+
 </style>
