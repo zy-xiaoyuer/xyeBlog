@@ -4,6 +4,6 @@
 
 - cd docs/.vitepress/dist
 - git add .
-- git commit -m'备注'
+- git commit -m '修改'
 - git pull
 - git push -f git@github.com:zy-xiaoyuer/zy-xiaoyuer.github.io.git master

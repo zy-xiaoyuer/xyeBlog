@@ -2,17 +2,55 @@
 layout: home
 
 hero:
-  name: 小芋儿的博客
-  text: 随便写点啥.
-  tagline: 冲冲冲🏃🏃🏃
+  name: " "
+  text: "慢慢来比较快🌈"
+  tagline: "                                                               ☃"
   image:
-    src: /logo.png
-    alt: 小芋儿
+    src: "/assets/xb.png"
+    alt: 小波
   actions:
     - theme: brand
-      text: 学习笔记
-      link: views/articles/vue2
+      text: 前端-笔记 📖
+      link: views/articles/frontEnd/
     - theme: brand
-      text: 论文阅读
-      link:
+      text: 友情链接 🔗
+      link: views/friendLinks
+# 存放比较常用或比较有价值的东西
+features:
+  # - icon: ⚡️
+  #   title: Vite, The DX that can't be beat
+  #   details: Lorem ipsum...
+  #   link:
+  - title: 权限管理
+    details: 基于web端的用户权限管理实现。
+    link: views/articles/index/prrmissionControl
+  - title: md的简单使用
+    details: md的简单使用
+    link: views/articles/index/md
+  # - title: Simple and minimal, always
+  #   details: Lorem ipsum...
+  # - title: Simple and minimal, always
+  #   details: Lorem ipsum...
+  # - title: Simple and minimal, always
+  #   details: Lorem ipsum...
 ---
+
+<script setup>
+
+
+</script>
+
+<style lang="sass" scopd>
+.VPContent.is-home
+  background-color: #C6D78D
+.VPNav.no-sidebar[data-v-9397ee4e]
+  background-color: #C6D78D
+[data-v-72cc4481] .image-src
+    top: 60%
+.icon[data-v-549c013f]
+  background-color: #C6D78D
+.box[data-v-549c013f]
+  background-color: #C6D78D
+.VPFeature[data-v-549c013f]
+  border-radius: 5px
+</style>
