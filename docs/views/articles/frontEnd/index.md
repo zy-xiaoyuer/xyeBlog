@@ -1,1 +1,7 @@
-前端笔记-首页
+---
+layout: doc
+
+# prev: "Get Started | Markdown"
+next: "HTML"
+link: "views/articles/frontEnd/html"
+---
