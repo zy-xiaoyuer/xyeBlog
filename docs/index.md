@@ -46,7 +46,7 @@ features:
 
 </script>
 
-<!-- <style lang="sass" scopd>
+<style lang="sass" scopd>
 .VPContent.is-home
   background-color: #C6D78D
-</style> -->
+</style>
